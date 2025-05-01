@@ -22,20 +22,30 @@ Setup React moderno con:
 
 # How to:
 
+Il metodo migliore è scaricare il .rar della cartella che vi serve, rinominarla e poi aprirla nel vosto IDE.
+altrimenti, se scegliete la via difficile serve sparse checkout.
 
 ## ▶️ Vanilla JS Setup
 
 ```bash
-git clone https://github.com/bubbosvilup/Setups.git
-cd Setups/vanillaSetup
+git clone --filter=blob:none --no-checkout https://github.com/bubbosvilup/Setups.git
+cd Setups
+git sparse-checkout init --cone
+git sparse-checkout set vanillaSetup
+git checkout
+// then just
 npm install
 ```
 
 ## ⚛️ React + Vite Setup
 
 ```bash
-git clone https://github.com/bubbosvilup/Setups.git
-cd Setups/reactSetup
+git clone --filter=blob:none --no-checkout https://github.com/bubbosvilup/Setups.git
+cd Setups
+git sparse-checkout init --cone
+git sparse-checkout set reactSetup
+git checkout
+// then just
 npm install
 npm run dev
 ```
