@@ -1,6 +1,27 @@
 # 📦 Project Setups
 
-Due setup base pronti all'uso:
+Questa repo contiene due setup base per iniziare nuovi progetti velocemente.
+
+
+## 📁 Contenuto
+
+### ▶️ `vanillaSetup/`
+Setup base con:
+- HTML, CSS e JavaScript puro
+- ESLint e Prettier già configurati
+
+### ⚛️ `reactSetup/`
+Setup React moderno con:
+- React + ReactDOM
+- Vite (dev server e build tool)
+- ESLint (con plugin React e Prettier)
+- Prettier per formattazione automatica
+- Struttura modulare (`src/components`, `src/pages`, `src/assets`)
+
+--------------------------------------------------------------------
+
+# How to:
+
 
 ## ▶️ Vanilla JS Setup
 
