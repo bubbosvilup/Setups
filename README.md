@@ -22,8 +22,11 @@ Setup React moderno con:
 
 # How to:
 
-Il metodo migliore è scaricare il .rar della cartella che vi serve, rinominarla e poi aprirla nel vosto IDE.
-altrimenti, se scegliete la via difficile serve sparse checkout.
+Il metodo migliore è scaricare il .bat e seguire le istruzioni:
+vi chiede prima quale setup scaricare, poi apre powershell per selezionare
+la destinazione ( o creare una nuova cartella ad hoc).
+Se non trustato il .bat allora scaricate il .rar che vi interessa oppure
+seguite le istruzioni sotto se sapete che roba sono.
 
 ## ▶️ Vanilla JS Setup
 
